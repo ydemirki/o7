@@ -91,8 +91,6 @@ class UserRepository: #shortly to manage user class -> login,register...
             for user in self.users:
                 print(f"\nID: {user['id']}\nName: {user['name']}\n")
 
-
-
 repo = UserRepository()
 
 while True:
@@ -136,3 +134,4 @@ while True:
             repo.listinfo()
         else:
             print('Invalid entry.')
+            
